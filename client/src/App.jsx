@@ -24,7 +24,7 @@ function App() {
                         element={<CreateUser/>}>
                     </Route>
                     <Route
-                        path='/update'
+                        path='/update/:id'
                         element={<UpdateUser/>}>
                     </Route>
                 </Routes>
